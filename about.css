@@ -1,0 +1,1241 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
+@font-face {
+    font-family: 'Clash Display-Medium';
+    src: url('Fonts/clashdisplay-medium-webfont.woff2') format('woff2'),
+         url('Fonts/clashdisplay-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Clash Display-Semibold';
+    src: url('Fonts/clashdisplay-semibold-webfont.woff2') format('woff2'),
+         url('Fonts/clashdisplay-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('Fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('Fonts/Satoshi-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('Fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('Fonts/Satoshi-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('Fonts/Satoshi-Medium.woff2') format('woff2'),
+       url('Fonts/Satoshi-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('Fonts/Satoshi-Light.woff2') format('woff2'),
+       url('Fonts/Satoshi-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.about-us {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .about-us .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 3670px;
+    position: absolute;
+  }
+
+  .about-us .group234 {
+    position: absolute;
+    height: 744px;
+    left: -64px;
+    top: -10px;
+  }
+  
+  .about-us .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 694px;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+  }
+  
+  .about-us .group {
+    position: absolute;
+    width: 200px;
+    height: 54px;
+    top: 27px;
+    left: 80px;
+  }
+  
+  .about-us .text-wrapper {
+    top: 35px;
+    left: 1005px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 25px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-2 {
+    position: absolute;
+    top: 40px;
+    left: 1173px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #7f0101;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .about-us .redefining-the {
+    position: absolute;
+    top: 275px;
+    left: 80px;
+    font-family: "Clash Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .p {
+    position: absolute;
+    width: 544px;
+    top: 424px;
+    left: 80px;
+    font-family: "Satoshi-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .amico {
+    position: absolute;
+    width: 500px;
+    height: 442px;
+    top: 236px;
+    left: 802px;
+    object-fit: cover;
+  }
+  
+  .about-us .welcome-to-nearpay {
+    position: absolute;
+    width: 570px;
+    top: 924px;
+    left: 80px;
+    font-family: "Satoshi-Light", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .span {
+    font-weight: 300;
+  }
+  
+  .about-us .text-wrapper-3 {
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+  }
+  
+  .about-us .text-wrapper-4 {
+    position: absolute;
+    top: 1637px;
+    left: 469px;
+    font-family: "Satoshi-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-5 {
+    width: 201px;
+    top: 845px;
+    left: 80px;
+    position: absolute;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-6 {
+    top: 1613px;
+    left: 621px;
+    position: absolute;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .overlap-group-wrapper {
+    position: absolute;
+    width: 606px;
+    height: 589px;
+    top: 879px;
+    left: 754px;
+  }
+  
+  .about-us .overlap-group {
+    position: relative;
+    height: 589px;
+  }
+  
+  .about-us .frame {
+    width: 400px;
+    height: 385px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: -4px 4px 4px #00000073;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .unsplash-y {
+    position: absolute;
+    width: 400px;
+    height: 385px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .about-us .unsplash-wrapper {
+    width: 366px;
+    height: 291px;
+    top: 298px;
+    left: 240px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: -4px 4px 4px #00000073;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .unsplash {
+    position: absolute;
+    width: 366px;
+    height: 291px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .about-us .group-wrapper {
+    width: 1280px;
+    height: 678px;
+    top: 1749px;
+    left: 80px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 1.83px 43.88px #0000001a;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .group-2 {
+    position: relative;
+    width: 1259px;
+    height: 554px;
+    top: 52px;
+    left: 30px;
+  }
+  
+  .about-us .vector-wrapper {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 95px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 1.83px 43.88px #00000026;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .vector {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    top: 35px;
+    left: 20px;
+  }
+  
+  .about-us .img-wrapper {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 541px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 1.83px 43.88px #00000026;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 25px;
+    left: 25px;
+  }
+  
+  .about-us .frame-2 {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 986px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 1.83px 43.88px #00000026;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .vector-2 {
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    top: 27px;
+    left: 30px;
+  }
+  
+  .about-us .text-wrapper-7 {
+    width: 292px;
+    top: 185px;
+    left: 0;
+    position: absolute;
+    font-family: "Satoshi-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-8 {
+    width: 292px;
+    top: 185px;
+    left: 445px;
+    position: absolute;
+    font-family: "Satoshi-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-9 {
+    position: absolute;
+    width: 314px;
+    top: 185px;
+    left: 879px;
+    font-family: "Satoshi-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-10 {
+    position: absolute;
+    top: 137px;
+    left: 43px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-11 {
+    position: absolute;
+    top: 137px;
+    left: 450px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-12 {
+    position: absolute;
+    top: 137px;
+    left: 851px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .frame-3 {
+    width: 100px;
+    height: 100px;
+    top: 297px;
+    left: 95px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 1.83px 43.88px #00000026;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .vector-3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 25px;
+    left: 29px;
+  }
+  
+  .about-us .mask-group-wrapper {
+    width: 100px;
+    height: 100px;
+    top: 297px;
+    left: 541px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 1.83px 43.88px #00000026;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .mask-group {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 23px;
+    left: 23px;
+  }
+  
+  .about-us .frame-4 {
+    width: 100px;
+    height: 100px;
+    top: 297px;
+    left: 986px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 1.83px 43.88px #00000026;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .vector-4 {
+    position: absolute;
+    width: 51px;
+    height: 53px;
+    top: 24px;
+    left: 25px;
+  }
+  
+  .about-us .text-wrapper-13 {
+    width: 292px;
+    top: 482px;
+    left: 0;
+    position: absolute;
+    font-family: "Satoshi-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-14 {
+    width: 350px;
+    top: 482px;
+    left: 416px;
+    position: absolute;
+    font-family: "Satoshi-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-15 {
+    width: 398px;
+    top: 482px;
+    left: 837px;
+    position: absolute;
+    font-family: "Satoshi-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-16 {
+    position: absolute;
+    top: 434px;
+    left: 69px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-17 {
+    position: absolute;
+    top: 434px;
+    left: 436px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-18 {
+    position: absolute;
+    top: 434px;
+    left: 883px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .group-3 {
+    position: absolute;
+    width: 1316px;
+    height: 380px;
+    top: 3250px;
+    left: 70px;
+  }
+  
+  .about-us .text-wrapper-19 {
+    position: absolute;
+    top: 62px;
+    left: 618px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-20 {
+    position: absolute;
+    top: 123px;
+    left: 649px;
+    font-family: "Satoshi-Regular", Helvetica;
+    font-weight: 400;
+    color: #d4212a;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .about-us .text-wrapper-21 {
+    top: 123px;
+    left: 910px;
+    font-family: "Satoshi-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .about-us .text-wrapper-22 {
+    position: absolute;
+    top: 159px;
+    left: 626px;
+    font-family: "Satoshi-Regular", Helvetica;
+    font-weight: 400;
+    color: #123969;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .about-us .text-wrapper-23 {
+    position: absolute;
+    top: 159px;
+    left: 903px;
+    font-family: "Satoshi-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+  }
+  
+  .about-us .text-wrapper-24 {
+    position: absolute;
+    top: 62px;
+    left: 865px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-25 {
+    position: absolute;
+    top: 62px;
+    left: 1139px;
+    font-family: "Clash Display-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .line {
+    position: absolute;
+    width: 1300px;
+    height: 1px;
+    top: -1px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .about-us .group-4 {
+    position: absolute;
+    width: 320px;
+    height: 86px;
+    top: 63px;
+    left: 0;
+  }
+  
+  .about-us .vector-5 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 122px;
+    left: 1258px;
+  }
+  
+  .about-us .vector-6 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 122px;
+    left: 1217px;
+  }
+  
+  .about-us .vector-7 {
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 122px;
+    left: 1175px;
+  }
+  
+  .about-us .vector-8 {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: 120px;
+    left: 1134px;
+  }
+  
+  .about-us .text-wrapper-26 {
+    position: absolute;
+    top: 356px;
+    left: 525px;
+    font-family: "Satoshi-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .frame-5 {
+    position: absolute;
+    width: 1280px;
+    height: 509px;
+    top: 2563px;
+    left: 80px;
+    border-radius: 60px;
+    overflow: hidden;
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 0.7) 0%,
+      rgba(253, 29, 29, 0.7) 50%,
+      rgba(252, 176, 69, 0.7) 100%
+    );
+  }
+  
+  .about-us .group-5 {
+    position: absolute;
+    width: 145px;
+    height: 137px;
+    top: 340px;
+    left: 109px;
+  }
+  
+  .about-us .join-the-revolution {
+    position: absolute;
+    width: 393px;
+    top: 40px;
+    left: 65px;
+    font-family: "Clash Display-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 70px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .text-wrapper-27 {
+    position: absolute;
+    width: 384px;
+    top: 200px;
+    left: 65px;
+    font-family: "Satoshi-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .group-6 {
+    position: absolute;
+    width: 650px;
+    height: 359px;
+    top: 76px;
+    left: 570px;
+  }
+  
+  .about-us .group-7 {
+    position: absolute;
+    width: 300px;
+    height: 359px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff14;
+    border-radius: 20px;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .about-us .div-wrapper {
+    width: 150px;
+    height: 150px;
+    top: 25px;
+    left: 75px;
+    background-color: #d4212a;
+    border-radius: 15px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .group-8 {
+    position: relative;
+    width: 92px;
+    height: 73px;
+    top: 38px;
+    left: 30px;
+  }
+  
+  .about-us .overlap-group-2 {
+    position: relative;
+    width: 90px;
+    height: 73px;
+  }
+  
+  .about-us .XMLID {
+    position: absolute;
+    width: 90px;
+    top: 47px;
+    left: -3px;
+    font-family: "Fredoka One", Helvetica;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 21.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .XMLID-2 {
+    position: absolute;
+    width: 89px;
+    height: 48px;
+    top: 0;
+    left: 1px;
+  }
+  .about-us .XMLID-3 {
+    position: absolute;
+    width: 90px;
+    top: 47px;
+    left: -3px;
+    font-family: "Fredoka One", Helvetica;
+    font-weight: 200;
+    color: #ffffff;
+    font-size: 21.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .about-us .XMLID-4 {
+    position: absolute;
+    width: 89px;
+    height: 48px;
+    top: 0;
+    left: 1px;
+  }
+  .about-us .app-store {
+    position: absolute;
+    width: 180px;
+    height: 52px;
+    top: 272px;
+    left: 60px;
+  }
+  
+  .about-us .google-play {
+    position: absolute;
+    width: 180px;
+    height: 52px;
+    top: 209px;
+    left: 60px;
+  }
+  
+  .about-us .group-9 {
+    position: absolute;
+    width: 300px;
+    height: 359px;
+    top: 0;
+    left: 350px;
+    background-color: #ffffff14;
+    border-radius: 20px;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .about-us .frame-6 {
+    width: 150px;
+    height: 150px;
+    top: 25px;
+    left: 75px;
+    background-color: #123969;
+    border-radius: 15px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .about-us .group-10 {
+    position: absolute;
+    width: 92px;
+    height: 73px;
+    top: 32px;
+    left: 30px;
+  }
+  
+  .about-us .text-wrapper-28 {
+    position: absolute;
+    width: 62px;
+    top: 107px;
+    left: 46px;
+    font-family: "Outfit-Light", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    line-height: normal;
+  }
+  .about-us .frame-99 {
+    display: none;
+   }
+   .about-us .frame-100 {
+     display: none;
+    }
+
+
+
+
+  @media screen and (min-width: 1599px) and (max-width: 1601px)
+  {
+    .about-us .group234 {
+      height: 769px;
+      left: -84px;
+      top: -45px;
+    }
+  }
+
+
+
+  @media screen and (min-width: 1439px) and (max-width: 1440px)
+  {
+    .about-us .div {
+      left: -17px;
+    }
+  
+    .about-us .group234 {
+      position: absolute;
+      height: 725px;
+      left: -64px;
+      top: -10px;
+    }
+
+    .about-us .group-3 {
+      left: 77px;
+    }
+    .about-us .frame-5 {
+      left: 90px;
+    }
+    .about-us .group-wrapper {
+      left: 90px;
+    }
+    .about-us .overlap-group {
+      left: 10px;
+    }
+  }
+  
+
+
+  @media screen and (min-width: 1365px) and (max-width: 1400px) 
+  {
+    .about-us .div {
+      left: -96px;
+    }
+    .about-us .group234 {
+      position: absolute;
+      height: 700px;
+      left: -14px;
+      top: -10px;
+    }
+    .about-us .group {
+      left: 135px;
+    }
+    .about-us .text-wrapper {
+      left: 1051px;
+      font-size: 21px;
+    }
+    .about-us .text-wrapper-2 {
+      left: 1223px;
+      font-size: 18px;
+    }
+    .about-us .redefining-the {
+      left: 130px;
+    }
+    .about-us .p {
+      left: 130px;
+    }
+    .about-us .overlap-group {
+      left: 50px;
+    }
+    .about-us .text-wrapper-5 {
+      left: 130px;
+    }
+    .about-us .welcome-to-nearpay {
+      left: 130px;
+    }
+    .about-us .text-wrapper-6 {
+      left: 671px;
+    }
+    .about-us .text-wrapper-4 {
+      left: 519px;
+    }
+    .about-us .group-wrapper {
+      left: 130px;
+    }
+    .about-us .frame-5 {
+      left: 130px;
+    }
+    .about-us .group-3 {
+      left: 120px;
+    }
+    .about-us .text-wrapper-26 {
+      left: 540px;
+    }
+  }
+
+
+  @media screen and (min-width: 1359px) and (max-width: 1364px) 
+  {
+    .about-us .div {
+      left: -100px;
+    }
+    .about-us .group234 {
+      position: absolute;
+      height: 700px;
+      left: -14px;
+      top: -10px;
+    }
+    .about-us .group {
+      left: 130px;
+    }
+    .about-us .text-wrapper {
+      left: 1051px;
+    }
+    .about-us .text-wrapper-2 {
+      left: 1223px;
+    }
+    .about-us .redefining-the {
+      left: 130px;
+    }
+    .about-us .p {
+      left: 130px;
+    }
+    .about-us .overlap-group {
+      left: 50px;
+    }
+    .about-us .text-wrapper-5 {
+      left: 130px;
+    }
+    .about-us .welcome-to-nearpay {
+      left: 130px;
+    }
+    .about-us .text-wrapper-6 {
+      left: 671px;
+    }
+    .about-us .text-wrapper-4 {
+      left: 519px;
+    }
+    .about-us .group-wrapper {
+      left: 130px;
+    }
+    .about-us .frame-5 {
+      left: 130px;
+    }
+    .about-us .group-3 {
+      left: 120px;
+    }
+    .about-us .text-wrapper-26 {
+      left: 540px;
+    }
+  }
+
+
+
+  @media screen and (min-width: 1279px) and (max-width: 1280px)
+  {
+    .about-us .div {
+      left: -177px;
+    }
+    .about-us .group234 {
+      position: absolute;
+      height: 690px;
+      left: 100px;
+      width: 1340px;
+      top: -25px;
+    }
+    .about-us .group {
+      left: 220px;
+    }
+    .about-us .redefining-the {
+      left: 220px;
+      top: 245px;
+    }
+    .about-us .p {
+      left: 220px;
+      top: 394px;
+    }
+    .about-us .amico {
+      left: 872px;
+      top: 180px;
+      width: 460px;
+      height: 402px;
+    }
+    .about-us .overlap-group {
+      left: 70px;
+      top: -50px;
+    }
+    .about-us .text-wrapper-5 {
+      left: 220px;
+    }
+    .about-us .welcome-to-nearpay {
+      left: 220px;
+      font-size: 20px;
+      top: 865px;
+    }
+    .about-us .frame {
+      width: 350px;
+      height: 335px;
+    }
+    .about-us .unsplash-wrapper {
+      width: 326px;
+      height: 251px;
+    }
+    .about-us .text-wrapper {
+      left: 1051px;
+      font-size: 21px;
+    }
+    .about-us .text-wrapper-2 {
+      left: 1223px;
+      font-size: 16px;
+    }
+    .about-us .text-wrapper-5 {
+      width: 201px;
+      top: 800px;
+    }
+    .about-us .text-wrapper-6 {
+      top: 1543px;
+      left: 701px;
+    }
+    .about-us .text-wrapper-4 {
+      left: 549px;
+      top: 1567px;
+    }
+    .about-us .group-wrapper {
+      left: 188px;
+      width: 1240px;
+      height: 678px;
+      top: 1679px;
+    }
+    .about-us .group-2 {
+      left: 5px;
+    }
+    .about-us .text-wrapper-15 {
+      font-size: 15px;
+    }
+    .about-us .text-wrapper-14 {
+      font-size: 15px;
+    }
+    .about-us .text-wrapper-13 {
+      font-size: 15px;
+    }
+    .about-us .text-wrapper-7 {
+      font-size: 15px;
+    }
+    .about-us .text-wrapper-8 {
+      font-size: 15px;
+    }
+    .about-us .text-wrapper-9 {
+      font-size: 15px;
+    }
+    .about-us .frame-5 {
+      left: 188px;
+      width: 1240px;
+      top: 2493px;
+    }
+    .about-us .frame-51 {
+      position: absolute;
+      left: -25px;
+    }
+    .about-us .text-wrapper-27 {
+      font-size: 20px;
+    }
+    .about-us .group-3 {
+      width: 1316px;
+      top: 3200px;
+      left: 124px;
+    }
+    .about-us .line {
+      width: 1217px;
+      left: 75px;
+    }
+    .about-us .text-wrapper-19 {
+      left: 568px;
+    }
+    .about-us .text-wrapper-20 {
+      left: 599px;
+    }
+    .about-us .text-wrapper-21 {
+      left: 860px;
+    }
+    .about-us .text-wrapper-22 {
+      left: 576px;
+    }
+    .about-us .text-wrapper-23 {
+      left: 865px;
+    }
+    .about-us .text-wrapper-24 {
+      left: 815px;
+    }
+    .about-us .text-wrapper-25 {
+      left: 1089px;
+    }
+    .about-us .vector-5 {
+      left: 1208px;
+    }
+    .about-us .vector-6 {
+      left: 1167px;
+    }
+    .about-us .vector-7 {
+      left: 1125px;
+    }
+    .about-us .vector-8 {
+      left: 1084px;
+    }
+    .about-us .text-wrapper-26 {
+      left: 500px;
+    }
+    .about-us .div {
+      height: 3600px;
+    }
+    .about-us .group-4 {
+      left: 70px;
+      width: 300px;
+      height: 66px;
+    }
+    .about-us .text-wrapper-26 {
+      left: 590px;
+      font-size: 13px;
+    }
+  }

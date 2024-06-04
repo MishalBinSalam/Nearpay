@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="Stylemob.css"> 
+  </head>
+  <body>
+    <div class="landing">
+      <div class="div">
+        <div class="frame-100" id="frame100">
+         <div class="div-7">
+          <a href="About.html" class="text-wrapper-88">About Us</a>
+          <a href="Contact.html" class="text-wrapper-89">Contact Us</a>
+         </div>
+        </div>
+      <button class="frame-99" onclick="toggleImage(); toggleFrame();">
+        <img class="group-99" id="toggleImage" src="img/group36.svg" />
+      </button>
+        <div class="overlap">
+          <div class="text-wrapper">Building The</div>
+          <div class="future-of-shopping"><div id="cycleText" class="text-wrapper-2">Future Of Shopping.</div></div>
+        </div>
+        <div class="text-wrapper-3">Our Products</div>
+        <div class="text-wrapper-4">Our Achievements</div>
+        <img class="group" src="img/nearpaaaay.svg" />
+        <a href="About.html" class="text-wrapper-5">About Us</a>
+        <a href="Contact.html" class="text-wrapper-6">Contact Us</a>
+        <div class="overlap-group"><div class="text-wrapper-7">%</div></div>
+        <p class="we-specialize-in">
+          We specialize in crafting cutting-edge Products that redefine convenience,<br />personalization, and
+          innovation. Join us as we shape the future of retail,<br />one click at a time.&#34;
+        </p>
+        <p class="p">Explore our diverse range of innovative products designed to enhance your lifestyle.</p>
+        <p class="text-wrapper-8">
+          Discover our notable milestones and accomplishments since the launch of our products.
+        </p>
+        <a href="About.html" class="frame"><div class="learn-more">Learn&nbsp;&nbsp;More</div></a>
+        <div class="frame-2">
+          <div class="overlap-2">
+            <div class="ellipse"></div>
+            <div class="ellipse-2"></div>
+            <div class="group-2">
+              <p class="div-2">
+                <span class="span">Introducing the sweetest fruit of our labour,</span>
+                <span class="text-wrapper-10">Nearwala.</span>
+              </p>
+              <p class="nearwala-is-not-just">
+                Nearwala is not just a platform; it&#39;s a community-driven solution crafted to elevate business&#39;s
+                visibility, accessibility, and profitability for local merchants. <br />Our mission is to connect local
+                businesses with tech-savvy consumers, creating a dynamic ecosystem where everyone flourishes.
+              </p>
+              <a href="https://nearwala.com/" class="div-wrapper"><div class="text-wrapper-11">Check It Out</div></a>
+            </div>
+          </div>
+          <div class="group-wrapper">
+            <div class="overlap-group-wrapper">
+              <div class="overlap-group-2">
+                <div class="XMLID">nearwala</div>
+                <img class="img" src="img/image1.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-3">
+          <div class="overlap-2">
+            <div class="ellipse-3"></div>
+            <div class="ellipse-4"></div>
+            <div class="group-3">
+              <p class="div-21">
+                <span class="span">Exponential business growth through</span>
+                <span class="text-wrapper-12">Nearwala Shop.</span>
+              </p>
+              <p class="text-wrapper-13">
+                In today’s digital era, a mobile app for your business is no longer a luxury—it’s a necessity. Our app
+                offers abundant benefits that can transform your business. From increased brand visibility and improved
+                customer engagement to enhanced loyalty and boosted sales, our product revolutionizes the way you
+                operate.
+              </p>
+              <a class="frame-4"><div class="text-wrapper-11">Check It Out</div></a>
+            </div>
+          </div>
+          <div class="frame-5">
+            <div class="group-4">
+              <div class="text-wrapper-14">For Business</div>
+              <div class="overlap-group-3">
+                <div class="XMLID">nearwala</div>
+                <img class="img" src="img/image1.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-6">
+          <div class="text-wrapper-15">70 K+</div>
+          <div class="text-wrapper-16">Transactions</div>
+          <img class="tran" src="img/tran.png" />
+        </div>
+        <div class="frame-7">
+          <div class="text-wrapper-17">100 K+</div>
+          <div class="text-wrapper-18">Users</div>
+          <img class="users" src="img/users.png" />
+        </div>
+        <div class="frame-8">
+          <div class="text-wrapper-15">700 +</div>
+          <div class="text-wrapper-19">Partner Shops</div>
+          <img class="partner" src="img/partner.png" />
+        </div>
+        <div class="group-5">
+          <div class="text-wrapper-20">Products</div>
+          <a href="https://nearwala.com/" class="text-wrapper-21">Nearwala</a>
+          <a href="About.html" class="text-wrapper-22">About Us</a>
+          <a href="https://nearwala.com/" class="text-wrapper-23">Nearwala Shop</a>
+          <a href="Contact.html" class="text-wrapper-24">Contact Us</a>
+          <div class="text-wrapper-25">Quick Links</div>
+          <div class="text-wrapper-26">Follow Us</div>
+          <img class="line" src="img/Line.svg" />
+          <img class="group-6" src="img/nearpaaaay.svg" />
+          <img class="group-7" src="img/X.svg" />
+          <a href="https://www.linkedin.com/company/nearpay-innovations" ><img class="group-8" src="img/Link.svg" /></a>
+          <a href="https://www.instagram.com/nearpayinnovations" ><img class="group-9" src="img/Insta.svg" /></a>
+          <img class="group-10" src="img/face.svg" />
+          <p class="text-wrapper-27">© 2024 Nearpay - All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <script>
+  var texts = ["Future Of Shopping.", "All Time Discount App."];
+  var index = 0;
+
+  function cycleText() {
+    document.getElementById("cycleText").style.opacity = 0;
+    setTimeout(function() {
+      document.getElementById("cycleText").textContent = texts[index];
+      index = (index + 1) % texts.length;
+      document.getElementById("cycleText").style.opacity = 1;
+    }, 1000);
+  }
+
+  cycleText();
+  setInterval(cycleText, 4000);
+
+
+  function toggleImage() {
+    var image = document.getElementById('toggleImage');
+    if (image.src.match('img/group36.svg')) {
+      image.src = 'img/Vectorx.svg';
+    } else {
+      image.src = 'img/group36.svg';
+    }
+  }
+
+  function toggleFrame() {
+  var frame100 = document.getElementById('frame100');
+  frame100.style.display = frame100.style.display === 'block' ? 'none' : 'block';
+}
+    </script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css" />
+    <link rel="stylesheet" href="contactmob.css" />
+  </head>
+  <body>
+    <div class="contact-us">
+      <div class="div">
+        <div class="frame-100" id="frame100">
+          <div class="div-7">
+           <a href="About.html" class="text-wrapper-88">About Us</a>
+           <a href="Contact.html" class="text-wrapper-89">Contact Us</a>
+          </div>
+         </div>
+       <button class="frame-99" onclick="toggleImage(); toggleFrame();">
+         <img class="group-99" id="toggleImage" src="img/group36.svg" />
+       </button>
+        <div class="overlap">
+          <img class="ellipse" src="img/Ellipse.svg" />
+          <div class="text-wrapper">Contact Us</div>
+          <a href="index.html"><img class="group" src="img/near2.svg" /></a>
+          <a href="About.html" class="text-wrapper-2">About Us</a>
+          <div class="text-wrapper-3">Contact Us</div>
+          <p class="p">Get in touch with us and let us know how we can help.</p>
+          <div class="overlap-group-wrapper">
+            <div class="overlap-group">
+              <div class="frame">
+                <div class="text-wrapper-4">Address</div>
+                <p class="head-office-BHIVE">
+                  <span class="span">Head Office: <br /></span>
+                  <span class="text-wrapper-5"
+                    >BHIVE Workspace, L-148, 5th Main Rd <br />Sector 6, HSR Layout, Bengaluru, Karnataka 560102.<br /><br
+                  /></span>
+                  <span class="span">R&amp;D Center:<br /></span>
+                  <span class="text-wrapper-6">UL Cyberpark, Calicut.</span>
+                </p>
+              </div>
+              <img class="img" src="img/Address.svg" />
+            </div>
+          </div>
+          <div class="overlap-wrapper">
+            <div class="overlap-group">
+              <div class="frame">
+                <div class="text-wrapper-7">Phone</div>
+                <div class="text-wrapper-8">+91 8301039220</div>
+              </div>
+              <img class="img" src="img/phone.svg" />
+            </div>
+          </div>
+          <div class="div-wrapper">
+            <div class="overlap-group">
+              <div class="frame">
+                <div class="text-wrapper-9">Email</div>
+                <div class="text-wrapper-10">mail@nearpayglobal.com</div>
+              </div>
+              <img class="img" src="img/mail.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="group-2">
+          <div class="text-wrapper-11">Products</div>
+          <a href="https://nearwala.com/" class="text-wrapper-12">Nearwala</a>
+          <a href="About.html" class="text-wrapper-13">About Us</a>
+          <a href="https://nearwala.com/" class="text-wrapper-14">Nearwala Shop</a>
+          <a href="Contact.html" class="text-wrapper-15">Contact Us</a>
+          <div class="text-wrapper-16">Quick Links</div>
+          <div class="text-wrapper-17">Follow Us</div>
+          <img class="line" src="img/Line.svg" />
+          <a href="index.html"><img class="group-3" src="img/nearpaaaay.svg" /></a>
+          <img class="vector" src="img/X.svg" />
+          <a href="https://www.linkedin.com/company/nearpay-innovations" ><img class="vector-2" src="img/Link.svg" /></a>
+          <a href="https://www.instagram.com/nearpayinnovations" ><img class="vector-3" src="img/Insta.svg" /></a>
+          <img class="vector-4" src="img/face.svg" />
+          <p class="text-wrapper-18">© 2024 Nearpay - All right reserved.</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      function toggleImage() {
+    var image = document.getElementById('toggleImage');
+    if (image.src.match('img/group36.svg')) {
+      image.src = 'img/Vectorx.svg';
+    } else {
+      image.src = 'img/group36.svg';
+    }
+  }
+
+  function toggleFrame() {
+  var frame100 = document.getElementById('frame100');
+  frame100.style.display = frame100.style.display === 'block' ? 'none' : 'block';
+}
+    </script>
+  </body>
+</html>
